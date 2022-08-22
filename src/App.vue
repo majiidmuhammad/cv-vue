@@ -8,7 +8,7 @@ import Personal from './components/Personal.vue'
 
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#" style="font-weight: bold;">CV</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -68,6 +68,7 @@ header {
   display: block;
   margin: 0 auto 2rem;
   border-radius: 15px;
+  border: 3px solid black;
 }
 
 /* nav {
