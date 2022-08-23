@@ -2,29 +2,16 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Personal from './components/Personal.vue'
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
 
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#" style="font-weight: bold;">CV</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Personal</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="/skill">Skill</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+
+    <Navbar />
   <header>
+
     <img alt="Vue logo" class="logo" src="@/assets/WhatsApp Image 2022-08-16 at 13.44.34.jpeg" width="125" height="160" />
 
     <div class="wrapper">
@@ -35,7 +22,9 @@ import Personal from './components/Personal.vue'
     </div>
   </header>
 
+
   <RouterView />
+  <Footer />
 </template>
 
 <style scoped>

@@ -69,21 +69,43 @@
     
 }
 
+.text1 h1 {
+    font-size: 60px;
+}
+
 .Personal {
-    background-color: orange;
+    background-color: bisque;
     width: 100%;
     border-radius: 15px;
-    height: 800px;
+    height: 950px;
     margin-top: 20px;
     color: black;
+    padding: 30px;
 }
 
 .summary {
     margin: 20px;
 }
 
+.summary h1 {
+    font-size: 45px;
+}
+
+.summary p {
+    font-size: 25px;
+}
+
 .pengalaman {
     margin: 20px;
+}
+
+.pengalaman h1 {
+    font-size: 45px;
+}
+
+.pengalaman ul li {
+    font-size: 25px;
+    line-height: 20px;
 }
 
 .pendidikan {

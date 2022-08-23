@@ -45,7 +45,7 @@
 }
 
   .skill {
-    background-color: orange;
+    background-color: bisque;
     width: 100%;
     border-radius: 15px;
     height: 650px;
