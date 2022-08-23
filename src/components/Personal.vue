@@ -1,4 +1,3 @@
-
 <script setup>
 defineProps({
   msg: {
@@ -26,4 +25,6 @@ defineProps({
   margin-top: 20px;
   line-height: 10px;
 }
+
+
 </style>
